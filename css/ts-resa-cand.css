@@ -63,7 +63,8 @@ T.ROSS
 		}
 		.date-wrap {
 			text-align:center;
-			margin-bottom:20px;
+			display:inline-block;
+			margin:0px 5px 20px 0;
 		}
 		.date-wrap > small {
 			display:block;
@@ -74,6 +75,20 @@ T.ROSS
 			display:block;
 			font-size:35px;
 			margin:5px 0;
+		}
+		
+
+		.start {
+			color:#24992B;
+		}
+		
+		.due {
+			color: #991F30;
+		}
+		
+		.vert-divider {
+			border-left: 2px solid #fff;
+			padding-left:10px;
 		}
 		
 		.overview-task-wrap {
@@ -125,4 +140,22 @@ T.ROSS
 		    -moz-box-shadow:    inset 0 0 30px #000000;
 		    -webkit-box-shadow: inset 0 0 30px #000000;
 		    box-shadow:         inset 0 0 30px #000000;
+		}
+		
+		.panel-squared {
+			background:#fff;
+			padding:30px;
+		}
+		
+		table.table-form {
+			margin:20px;
+		}
+		
+		.table-form td {
+			border:none;
+			margin:15px 0;
+		}
+		
+		.thick-margin {
+			margin:0 25%;
 		}
