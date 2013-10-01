@@ -38,21 +38,33 @@ T.ROSS
 			font-size:18px;
 		}
 		
+		.cand-navbar-title {
+			padding:16px 16px;
+			text-align:center;
+			font-size:20px;
+			text-shadow: 0 2px 2px rgba(255, 255, 255, 0.75);
+		}
+		
 		ul.cand-navlist  {
 			list-style:none;
 			margin:none;
 		}
 		
-		.cand-nav {
-			background:#F5F5F5; 
+		.cand-nav, .cand-call {
+			background:#fff; 
 		    box-sizing:border-box;
 		    -moz-box-sizing:border-box; /* Firefox */
-			padding:30px 0;
-			text-align:center;
+			padding:30px 30px;
 			border-bottom: 1px dotted #444;
 		}
+		
+		.cand-call {
+			border-top: 1px dotted #444;
+			border-bottom: 0px dotted #444;
+		}
+		
 		.cand-main {
-			background:#F5F5F5; 
+			background:#fff; 
 			padding:20px;
 		    box-sizing:border-box;
 		    -moz-box-sizing:border-box; /* Firefox */
@@ -158,4 +170,18 @@ T.ROSS
 		
 		.thick-margin {
 			margin:0 25%;
+		}
+		
+		td.number {
+			font-size:20px;
+			color:#737373;
+		}
+
+		/*========================================================================
+		BOOTSTRAP OVERRIDES */	
+
+		.breadcrumb {
+			background:none;
+			margin:0;
+			padding:0;
 		}

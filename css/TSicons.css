@@ -1,0 +1,250 @@
+@font-face {
+	font-family: 'TS';
+	src:url('fonts/TS.eot');
+	src:url('fonts/TS.eot?#iefix') format('embedded-opentype'),
+		url('fonts/TS.woff') format('woff'),
+		url('fonts/TS.ttf') format('truetype'),
+		url('fonts/TS.svg#TS') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'TS';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.icon-teachscape, .icon-teachscape-logo, .icon-focus, .icon-reflect, .icon-learn, .icon-advance, .icon-walk, .icon-classroom, .icon-ok, .icon-remove, .icon-trash, .icon-home, .icon-lock, .icon-pencil, .icon-check, .icon-facebook-sign, .icon-calendar, .icon-warning-sign, .icon-linkedin-sign, .icon-minus-sign-alt, .icon-plus-sign, .icon-youtube-play, .icon-twitter, .icon-new-tab, .icon-spinner, .icon-download, .icon-list-alt, .icon-file, .icon-paste, .icon-caret-right, .icon-caret-down, .icon-caret-up, .icon-info, .icon-check-empty, .icon-picture, .icon-headphones, .icon-circle, .icon-circle-blank, .icon-sort-by-alphabet, .icon-sort-by-alphabet-alt, .icon-sort-by-order, .icon-sort-by-order-alt, .icon-certificate, .icon-table, .icon-folder-close, .icon-film, .icon-facetime-video, .icon-user, .icon-search, .icon-star, .icon-exclamation-sign, .icon-refresh, .icon-ban-circle, .icon-remove-circle, .icon-question-sign, .icon-chevron-right, .icon-chevron-left, .icon-chevron-up, .icon-chevron-down, .icon-users, .icon-dashboard, .icon-star-empty, .icon-plus, .icon-minus, .icon-asterisk, .icon-quotes-left, .icon-cog, .icon-chevron-sign-up, .icon-chevron-sign-down, .icon-spell-check {
+	font-family: 'TS';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-teachscape:before {
+	content: "\e000";
+}
+.icon-teachscape-logo:before {
+	content: "\e001";
+}
+.icon-focus:before {
+	content: "\e002";
+}
+.icon-reflect:before {
+	content: "\e003";
+}
+.icon-learn:before {
+	content: "\e004";
+}
+.icon-advance:before {
+	content: "\e005";
+}
+.icon-walk:before {
+	content: "\e006";
+}
+.icon-classroom:before {
+	content: "\e007";
+}
+.icon-ok:before {
+	content: "\e008";
+}
+.icon-remove:before {
+	content: "\e009";
+}
+.icon-trash:before {
+	content: "\e00a";
+}
+.icon-home:before {
+	content: "\e00b";
+}
+.icon-lock:before {
+	content: "\e00c";
+}
+.icon-pencil:before {
+	content: "\e00d";
+}
+.icon-check:before {
+	content: "\e00e";
+}
+.icon-facebook-sign:before {
+	content: "\e00f";
+}
+.icon-calendar:before {
+	content: "\e010";
+}
+.icon-warning-sign:before {
+	content: "\e011";
+}
+.icon-linkedin-sign:before {
+	content: "\e012";
+}
+.icon-minus-sign-alt:before {
+	content: "\e013";
+}
+.icon-plus-sign:before {
+	content: "\e014";
+}
+.icon-youtube-play:before {
+	content: "\e015";
+}
+.icon-twitter:before {
+	content: "\e016";
+}
+.icon-new-tab:before {
+	content: "\e017";
+}
+.icon-spinner:before {
+	content: "\e018";
+}
+.icon-download:before {
+	content: "\e019";
+}
+.icon-list-alt:before {
+	content: "\e01a";
+}
+.icon-file:before {
+	content: "\e01b";
+}
+.icon-paste:before {
+	content: "\e01c";
+}
+.icon-caret-right:before {
+	content: "\e01d";
+}
+.icon-caret-down:before {
+	content: "\e01e";
+}
+.icon-caret-up:before {
+	content: "\e01f";
+}
+.icon-info:before {
+	content: "\e020";
+}
+.icon-check-empty:before {
+	content: "\e021";
+}
+.icon-picture:before {
+	content: "\e022";
+}
+.icon-headphones:before {
+	content: "\e023";
+}
+.icon-circle:before {
+	content: "\e024";
+}
+.icon-circle-blank:before {
+	content: "\e025";
+}
+.icon-sort-by-alphabet:before {
+	content: "\e026";
+}
+.icon-sort-by-alphabet-alt:before {
+	content: "\e027";
+}
+.icon-sort-by-order:before {
+	content: "\e028";
+}
+.icon-sort-by-order-alt:before {
+	content: "\e029";
+}
+.icon-certificate:before {
+	content: "\e02a";
+}
+.icon-table:before {
+	content: "\e02b";
+}
+.icon-folder-close:before {
+	content: "\e02c";
+}
+.icon-film:before {
+	content: "\e02d";
+}
+.icon-facetime-video:before {
+	content: "\e02e";
+}
+.icon-user:before {
+	content: "\e02f";
+}
+.icon-search:before {
+	content: "\e030";
+}
+.icon-star:before {
+	content: "\e031";
+}
+.icon-exclamation-sign:before {
+	content: "\e032";
+}
+.icon-refresh:before {
+	content: "\e033";
+}
+.icon-ban-circle:before {
+	content: "\e034";
+}
+.icon-remove-circle:before {
+	content: "\e035";
+}
+.icon-question-sign:before {
+	content: "\e036";
+}
+.icon-chevron-right:before {
+	content: "\e037";
+}
+.icon-chevron-left:before {
+	content: "\e038";
+}
+.icon-chevron-up:before {
+	content: "\e039";
+}
+.icon-chevron-down:before {
+	content: "\e03a";
+}
+.icon-users:before {
+	content: "\e03b";
+}
+.icon-dashboard:before {
+	content: "\e03c";
+}
+.icon-star-empty:before {
+	content: "\e03d";
+}
+.icon-plus:before {
+	content: "\e03e";
+}
+.icon-minus:before {
+	content: "\e03f";
+}
+.icon-asterisk:before {
+	content: "\e040";
+}
+.icon-quotes-left:before {
+	content: "\e041";
+}
+.icon-cog:before {
+	content: "\e042";
+}
+.icon-chevron-sign-up:before {
+	content: "\f139";
+}
+.icon-chevron-sign-down:before {
+	content: "\f13a";
+}
+.icon-spell-check:before {
+	content: "\e043";
+}
