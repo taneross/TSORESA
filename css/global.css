@@ -317,7 +317,14 @@ input {
 	font-size:1.3 em;
 }
 
+.with-meta {
+	margin:0px;
+}
 
+.meta {
+	font-size:80%;
+	margin:0;
+}
     
 /*========================================================================
  UX PLACEHOLDER CLASSES */	
