@@ -1,0 +1,87 @@
+/*
+
+USER: CANDIDATE 
+SEPT 28 2013
+T.ROSS
+
+*/
+
+
+/*=========== OVERVIEW CLASSESS =================*/
+ul.admin-nav {
+	margin:27px 0;
+
+	color:#fff;
+}
+
+ul.admin-nav > li {
+	list-style:none;
+	display:inline;
+}
+
+ul.admin-nav > li > a{
+	padding: 20px 30px;
+	color:#fff;
+}
+
+ul.admin-nav > li.active {
+	padding: 20px 30px;
+	background: #e51739;
+}
+
+ul.admin-nav > li > a:hover{
+	background: #e51739;
+	text-decoration: none;
+}
+
+ul.admin-subnav {
+	margin-right:0;
+	margin-top:40px;
+	color:#444;
+}
+
+ul.admin-subnav > li {
+	margin:10px 0;
+	list-style:none;
+	padding:10px 0;
+	border-bottom: 1px dotted #fff;
+}
+
+ul.admin-subnav > li.active {
+	color:#e51739;
+	font-weight:bold;
+}
+
+ul.admin-subnav > li > a {
+	color:#444;
+}
+
+ul.admin-subnav > li > a:hover {
+	color:#e51739;
+	text-decoration:none;
+}
+
+
+
+.nav-col > ul{
+	margin-top: 40px;
+}
+
+.nav-col > ul >li {
+	list-style:none;
+	color:#444;
+	border-bottom:1px dotted #737373;
+	padding:20px 0;
+}
+
+.nav-col >ul > li.active {
+	color:#e51739;
+}
+.nav-col >ul > li > a:hover {
+	color:#e51739;
+}
+
+
+/*========================================================================
+BOOTSTRAP OVERRIDES */	
+

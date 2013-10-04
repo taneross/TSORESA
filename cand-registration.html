@@ -34,32 +34,33 @@
 		</style>
   </head>
 
-  <body style="background:#ccc">
+  <body>
 
-
-    <!--========== top nav row ==========-->
+<div id="wrapper"><!-- make the footer stick -->
+<!--========== top nav row ==========-->
 	
-  	<div class="row-fluid subnav-nav">						<!-- nav rows -->
-  		<div class="span2 logo-nav">							<!-- nav-col ... use for logo and links for admin-->
+  	<div class="row-fluid subnav-nav">					
+  			<!-- nav-col ... use for logo and links for admin-->
+		<div class="span2 logo-nav">						
 			
   		</div>
 		
 		
 		
-  		<div class="span8 stage-nav" >							<!-- stage-col ... center nav bar-->
+  		<!-- stage-col ... center nav bar--><div class="span8 stage-nav" >							
 			<div class="navbar-inner squared" >
 					  <div class="row-fluid">
-						  <div class="span4 cand-navbar-logo">Ohio RESA</div>
-						  <div class="span4 offset4 cand-navbar">
-							  
-						  </div>
+						  <div class="span4 cand-navbar-logo"><img src="images/logosm.png"></div>
+						  
+						  <div class="span4 cand-navbar-title"><h2>Register</h2></div>
+						  
 					  </div>
 			      </div>
   		</div>
 		
 		
-		
-  		<div class="span2 work-nav">							<!-- work-col ... right nav bar-->
+		<!-- work-col ... right nav bar-->
+  		<div class="span2 work-nav">							
 			
 		</div>
 			
@@ -68,20 +69,22 @@
 	
 	
 	
-	<!--========== main content row ==========-->
+<!--========== main content row ==========-->
 	
 	<div class="row-fluid">
-		<div class="span2 nav-col">								<!-- subnav column -->
+		<!-- subnav column -->
+		<div class="span2 nav-col">								
 			
 		</div>
 		
 		
-		
-		<div class="span8 stage-col panel-squared" >							<!-- center stage column-->
+		<!-- center stage column-->
+		<div class="span8 stage-col panel-squared" >							
 			
 			<div class=" thick-margin">
 					<h1>Ohio RESA Registration</h1>
-					<h4>The following is information we have on file for you. <a href="#">Click here if the information is incorrect</a></h4>
+					<h4>The following is information we have on file for you.</h4> 
+					<h4><a href="#">Click here if the information is incorrect</a></h4>
 						<p>
 							<table class="table-form">
 								<tr>
@@ -136,7 +139,9 @@
 						      <label class="checkbox">
 						        <input type="checkbox"> Remember me
 						      </label>
-						      <button type="submit" class="btn-primary">Sign in</button>
+							  <div class="mar-top-20">
+						      	<button type="submit" class="btn btn-primary">Sign in</button>
+							</div>
 						    </div>
 						  </div>
 						</form>
@@ -147,26 +152,30 @@
 		
 		
 	
-		
-		<div class="span2 work-col">					<!-- work-col -->
+		<!-- work-col -->
+		<div class="span2 work-col">					
 			
 		</div>
 	</div><!-- /row -->
      
 	
-	<!--========== footer ==========--> 
+    <!-- make the footer stick --> 
+	<div id="push"></div>
+</div><!--/wrapper -->
+
+<!--========== footer ==========--> 
   	
-	<div class="row-fluid footer">						<!-- nav rows -->
-  		<div class="span2 subnav-foot">							<!-- nav-col ... use for logo and links for admin-->
+	<div class="row-fluid footer">						
+  		<div class="span2 subnav-foot">							
 			
   		</div>
 		
 		
-		
-  		<div class="span8 stage-foot" >							<!-- stage-col ... center nav bar-->
+		<!-- stage-col ... footer-->
+  		<div class="span8 stage-foot" >							
 			<div class="navbar-inner squared" >
 					  <div class="row-fluid">
-						  <div class="span4 cand-navbar-logo"><span class="icon-teachscape logo-color-burg" ></span></div>
+						  <div class="span4 cand-footer-logo"><span class="icon-teachscape logo-color-burg" ></span></div>
 						  <div class="span4 offset4 cand-navbar">
 							  <ul class="cand-navlist">
 								  <li><a hfref="#">Support</a></li>
@@ -177,8 +186,8 @@
   		</div>
 		
 		
-		
-  		<div class="span2 work-foot">							<!-- work-col ... right nav bar-->
+		<!-- work-col ... footer-->
+  		<div class="span2 work-foot">							
 			
 		</div>
 		
@@ -196,6 +205,7 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/jquery.js"></script>
 	<script src="bootstrap/js/bootstrap-modal.js"></script>
+	<script src="bootstrap/js/bootstrap-alert.js"></script>
     <!--<script src="bootstrap/js/bootstrap.min.js"></script>-->
   </body>
 </html>

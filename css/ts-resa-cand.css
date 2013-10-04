@@ -9,6 +9,10 @@ T.ROSS
 
 /*=========== OVERVIEW CLASSESS =================*/
 
+		body {
+			background:#ccc;
+		}
+
 		.stage-nav {
 			box-shadow: 0px 0px 100px #000;
 		}
@@ -24,9 +28,18 @@ T.ROSS
 			border-radius: 0;
 		}
 		
+		.logo-nav {
+			padding:16px 16px;
+			text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.75);
+		}
+		
 		.cand-navbar-logo {
 
 			padding:16px 16px;
+		}
+		.cand-footer-logo {
+			font-size:20px;
+			padding:25px 16px 0 16px;
 		}
 		
 		.cand-navbar {
@@ -74,25 +87,35 @@ T.ROSS
 		    -moz-box-sizing:border-box; /* Firefox */
 		}
 		
+		.cand-content-border {
+			padding:20px 40px 40px 20px;
+		    box-sizing:border-box;
+		    -moz-box-sizing:border-box; /* Firefox */
+			border-bottom:1px dotted #737373;
+		}
+		
 		.overview-task-wrap {
 			margin: 10px 0;
 		}
 		.date-wrap {
 			text-align:center;
 			display:inline-block;
-			margin:0px 5px 20px 0;
+			margin:0px 5px 20px 5px;
 		}
 		.date-wrap > small {
 			display:block;
 			font-size:12px;
 			margin:5px 0;
 		}
-		.date-wrap > large {
+		.date-wrap > large{
 			display:block;
-			font-size:35px;
+			font-size:40px;
 			margin:5px 0;
 		}
 		
+		.due-date-horz {
+			font-size:20px;
+		}
 
 		.start {
 			color:#24992B;
@@ -173,12 +196,25 @@ T.ROSS
 		}
 		
 		.thick-margin {
-			margin:0 25%;
+			margin:0 20%;
 		}
 		
 		td.number {
 			font-size:20px;
 			color:#A9A9A9;
+		}
+		
+		.status-col {
+			font-size:20px;
+		}
+		
+		td.no-border {
+			border-bottom:0px;
+		}
+		
+		.progress-task {
+			margin: 15px 20px 5px 0;
+			
 		}
 
 		/*========================================================================

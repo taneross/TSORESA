@@ -31,24 +31,27 @@
 		</style>
   </head>
 
-  <body style="background:#ccc">
+  <body>
 
+<div id="wrapper"><!-- make the footer stick -->
 
-    <!--========== top nav row ==========-->
+<!--========== top nav row ==========-->
 	
   	<div class="row-fluid subnav-nav">						<!-- nav rows -->
-  		<div class="span2 logo-nav">							<!-- nav-col ... use for logo and links for admin-->
+  		
+		<!-- nav-col ... use for logo and links for admin-->
+		<div class="span2 logo-nav">							
 			
   		</div>
 		
 		
-		
-  		<div class="span8 stage-nav" >							<!-- stage-col ... center nav bar-->
+		<!-- stage-col ... center nav bar-->
+  		<div class="span8 stage-nav" >							
 			<div class="navbar-inner squared" >
 					  <div class="row-fluid">
 						  <div class="span4 cand-navbar-logo"><img src="images/logosm.png"></div>
 						  
-						  <div class="span4 cand-navbar-title">Overview</div>
+						  <div class="span4 cand-navbar-title"><h2>Overview & Status</h2></div>
 						  
 						  <div class="span4 cand-navbar">
 							  <ul class="cand-navlist">
@@ -60,8 +63,8 @@
   		</div>
 		
 		
-		
-  		<div class="span2 work-nav">							<!-- work-col ... right nav bar-->
+		<!-- work-col ... right nav bar-->
+  		<div class="span2 work-nav">							
 			
 		</div>
 			
@@ -70,42 +73,47 @@
 	
 	
 	
-	<!--========== main content row ==========-->
+<!--========== main content row ==========-->
 	
 	<div class="row-fluid">
-		<div class="span2 nav-col">								<!-- subnav column -->
+		
+		<!-- subnav column -->
+		<div class="span2 nav-col">								
 			
 		</div>
 		
 		
-		
-		<div class="span8 stage-col" >							<!-- center stage column-->
+		<!-- center stage column-->
+		<div class="span8 stage-col" >							
 			
-			<div class="row-fluid cand-nav align-center" > 					<!-- main nav for candidates -->
+			<!-- main nav for candidates -->
+			<div class="row-fluid cand-nav align-center" > 					
 				<div class="btn-group">
 				  <button class="btn active">My Submission</button>
 				  <button class="btn">My Videos</button>
 				</div>
 			</div>
 			
-			<div class="row-fluid cand-main">					<!-- task modules  -->
+			
+			<!-- task modules  -->
+			<div class="row-fluid cand-main">					
 				<div class="span8">
 					
 					
 					<div class="row-fluid overview-task-wrap">	<!--task - start state -->
 						<div class="span3">
 							<div class="align-center">
+
+								<h4 class="due">TASK DUE DATE</h4>
 								<div class="date-wrap" >
-									<h4 class="start">START  </h4>
 									<small>SEP.</small>
-									<large>1</large>
+									<large class="start">30</large>
 									<small>2014</small>
 								</div>
-								<div class="date-wrap vert-divider" >
-									<h4 class="due">DUE  </h4>
-									<small>DEC.</small>
-									<large>30</large>
-									<small>2014</small>
+								<div class="date-wrap disabled" >
+									<small>DAYS</small>
+									<large>29</large>
+									<small>LEFT</small>
 								</div>
 							</div>
 							<div class="align-center">
@@ -156,20 +164,21 @@
 							<h2 class="task disabled">Task 3: Lesson Cycle</h2>
 							<p>In this task, you will assemble a portfolio of evidence that demonstrates your work with students in the context of a single lesson.  You will submit a description of the students and your classroom, a lesson overview, a videotape of that lesson citing specific parts for assessors to watch, a commentary on that videotape, all instructional artifacts associated with this lesson, and an analysis of the entire lesson.  </p>
 						</div>
-					</div><!-- /task - submitted state -->
+					</div><!-- /task - not submitted state -->
 				
 				
 				
-				</div>									<!--/task modules -->
+				</div><!--/task modules -->									
 				
 				
 				
-				
-				<div class="span4 link-list">			<!-- help links sidebar -->
+				<!-- help links sidebar -->
+				<div class="span4 link-list">			
 					<h4>RESOURCES</H4>
 					<ul>
 						<li><a hfref="#">Download Full Rubric</a></li>
-						<li><a hfref="#">View Handbook</a></li>
+						<li><a hfref="#">Download Handbook</a></li>
+						<li><a hfref="#">Download Training</a></li>
 					</ul>
 					<h4>TRAINING VIDEO</H4>
 					<div class="" >
@@ -184,25 +193,31 @@
 		
 	
 		
-		<div class="span2 work-col">					<!-- work-col -->
+		<!-- work-col --><div class="span2 work-col">					
 			
 		</div>
 	</div><!-- /row -->
      
-	
-	<!--========== footer ==========--> 
+    <!-- make the footer stick --> 
+	<div id="push"></div>
+</div><!--/wrapper -->
+
+
+<!--========== footer ==========--> 
   	
-	<div class="row-fluid footer">						<!-- nav rows -->
-  		<div class="span2 subnav-foot">							<!-- nav-col ... use for logo and links for admin-->
+	<div class="row-fluid footer">	
+		
+		<!-- nav-col ... left col footer-->					
+  		<div class="span2 subnav-foot">							
 			
   		</div>
 		
 		
-		
-  		<div class="span8 stage-foot" >							<!-- stage-col ... center nav bar-->
+		<!-- stage-col ... footer-->
+  		<div class="span8 stage-foot" >							
 			<div class="navbar-inner squared" >
 					  <div class="row-fluid">
-						  <div class="span4 cand-navbar-logo"><span class="icon-teachscape logo-color-burg" ></span></div>
+						  <div class="span4 cand-footer-logo"><span class="icon-teachscape logo-color-burg" ></span></div>
 						  <div class="span4 offset4 cand-navbar">
 							  <ul class="cand-navlist">
 								  <li><a hfref="#">Support</a></li>
@@ -213,8 +228,8 @@
   		</div>
 		
 		
-		
-  		<div class="span2 work-foot">							<!-- work-col ... right nav bar-->
+		<!-- work-col ... footer-->
+  		<div class="span2 work-foot">							
 			
 		</div>
 		
@@ -232,6 +247,7 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/jquery.js"></script>
 	<script src="bootstrap/js/bootstrap-modal.js"></script>
+	<script src="bootstrap/js/bootstrap-alert.js"></script>
     <!--<script src="bootstrap/js/bootstrap.min.js"></script>-->
   </body>
 </html>
