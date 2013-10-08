@@ -10,7 +10,7 @@ T.ROSS
 /*=========== OVERVIEW CLASSESS =================*/
 
 		body {
-			background:#ccc;
+			background: #ccc url("../images/bg_fabric.png") repeat;
 		}
 
 		.stage-nav {
@@ -85,6 +85,8 @@ T.ROSS
 			padding:20px;
 		    box-sizing:border-box;
 		    -moz-box-sizing:border-box; /* Firefox */
+			position:relative;
+			bottom:0;
 		}
 		
 		.cand-content-border {
