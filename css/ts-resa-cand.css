@@ -201,7 +201,7 @@ T.ROSS
 			margin:0 20%;
 		}
 		
-		td.number {
+		td.number, .number {
 			font-size:20px;
 			color:#A9A9A9;
 		}
@@ -218,6 +218,38 @@ T.ROSS
 			margin: 15px 20px 5px 0;
 			
 		}
+		
+		.question-table > tbody > tr > td {
+			margin-top:30px;
+			padding-top:30px;
+		}
+		
+		.text-area-module {
+			margin:30px 0 60px 0;
+		}
+
+		.text-area-module > .btn-group {
+			margin-bottom:5px;
+		}
+		.text-area-module > span.left {
+			width:45%;
+			margin-top:5px;
+			font-size:90%;
+			color:#737373;
+			float:left;
+			display:inline-block;
+		}
+		.text-area-module > span.right {
+			text-align:right;
+			width:45%;
+			margin-top:5px;
+			font-size:90%;
+			color:#737373;
+			float:right;
+			display:inline-block;
+		}
+		
+		
 
 		/*========================================================================
 		BOOTSTRAP OVERRIDES */	
