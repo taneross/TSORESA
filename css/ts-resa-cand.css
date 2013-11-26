@@ -4,6 +4,9 @@ USER: CANDIDATE
 SEPT 28 2013
 T.ROSS
 
+bright red: #e51739
+dark red: #820024
+
 */
 
 
@@ -20,8 +23,35 @@ T.ROSS
 			background: #732843;
 		}
 		.stage-col {
-			box-shadow: 0px 0px 100px rgba(0,0,0, .5);
+			/*box-shadow: 0px 0px 100px rgba(0,0,0, .5);*/
 			
+		}
+		
+		.align-left {
+			text-align:left;
+		}
+		
+		.align-right {
+			text-align:right;
+		}
+		
+		.mar-right-15 {
+			margin-right:15px;
+		}
+		
+		.disp-inline {
+			display:inline-block;
+		}
+		
+		.with-meta-right {
+			display:inline-block;
+			margin-right:30px;
+			margin-bottom:0;
+		}
+		
+		.btn-meta {
+			margin-bottom:15px;
+			display:inline-block;
 		}
 		
 		.squared {
@@ -71,7 +101,7 @@ T.ROSS
 			background:#fff; 
 		    box-sizing:border-box;
 		    -moz-box-sizing:border-box; /* Firefox */
-			padding:30px 30px;
+			padding:20px 20px;
 			border-bottom: 1px dotted #444;
 		}
 		
@@ -89,12 +119,20 @@ T.ROSS
 			bottom:0;
 		}
 		
-		.cand-content-border {
+		.cand-content, .cand-content-border {
 			padding:20px 40px 40px 20px;
 		    box-sizing:border-box;
 		    -moz-box-sizing:border-box; /* Firefox */
+		}
+		
+		.cand-content-border {
 			border-bottom:1px dotted #737373;
 		}
+		
+		.cand-content > h4 {
+			color: #e51739;
+		}
+		
 		
 		.overview-task-wrap {
 			margin: 10px 0;
@@ -142,6 +180,8 @@ T.ROSS
 		h2.task {
 			margin-bottom:25px;
 			line-height: 1.3;
+			display:inline-block;
+			margin-right:30px;
 		}
 		
 		.disabled:hover {
@@ -198,7 +238,7 @@ T.ROSS
 		}
 		
 		.thick-margin {
-			margin:0 20%;
+			margin:0 10%;
 		}
 		
 		td.number, .number {
@@ -249,11 +289,87 @@ T.ROSS
 			display:inline-block;
 		}
 		
+		table.table-checklist {
+			width:100%;
+		}
 		
+		ul.resource-nav {
+			padding:0px 0;
+			margin:0;
+			background-color: rgba(255, 255, 255, .6);
+			/*-moz-box-shadow:    inset 0 0 10px #737373;
+			-webkit-box-shadow: inset 0 0 10px #737373;
+			box-shadow:         inset 0 0 10px #737373;*/
+			text-align:center;
+			-webkit-margin-before: 0em;
+			-webkit-margin-after: 0em;
+			-webkit-margin-start: 0px;
+			-webkit-margin-end: 0px;
+			-webkit-padding-start: 0px;
+		}
+		
+		ul.resource-nav > li {
+			list-style: none;
+			line-height:20px;
+			display:inline-block;
+			margin:0;
+		}
+		
+		ul.resource-nav > li > a {
+			background: #fff -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#e5e5e5));
+			display: block;
+			height: 28px;
+			line-height: 28px;
+			padding: 0 20px;
 
+			border-right: 1px solid #ccc;
+			border-left: 1px solid #fff;
+		}
+		
+		ul.resource-nav > li > a:hover {
+			background: #2F4FA2;
+			text-decoration:none;
+			color:#fff;
+		}
+		
+		.segment-top-bottom {
+			padding:20px 0;
+			margin:30px 0;
+			border-top:1px dotted #737373;
+			border-bottom:1px dotted #737373;
+		}
+
+		/*===========================
+		GLOBAL OVERRIDES */
+		
+		.btn-sm {
+			padding:10px 20px;
+		}
+		
+		
 		/*========================================================================
 		BOOTSTRAP OVERRIDES */	
+		.progress-bar {
+			float: left;
+			width: 0;
+			height: 100%;
+			font-size: 14px;
+			line-height: 22px;
+			color: #ffffff;
+			text-align: center;
+			background-color: #732843;
+			-webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+			box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+			-webkit-transition: width 0.6s ease;
+			transition: width 0.6s ease;
+		}
 
+		.navbar-inner {
+			background-color:#fff;
+			background-image:none;
+		}
+		
+		
 		.breadcrumb {
 			background:none;
 			margin:0;
@@ -261,5 +377,7 @@ T.ROSS
 		}
 		
 		.breadcrumb> li {
-			line-height:60px;
+			line-height:50px;
 		}
+		
+		

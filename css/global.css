@@ -59,7 +59,7 @@ h4 {
 }
 
 /* ********** Links **********  */
-a {
+a, a > span {
 	color: #2F4FA2;
 	text-decoration: none;
 	cursor:pointer;
@@ -71,6 +71,7 @@ a:hover {
 a [class^="icon-"]:hover, a [class*=" icon-"]:hover {
 	text-decoration: none;
 }
+
 /* ********** Contextual Help Links **********  */
 
 .contextualhelp {
@@ -94,6 +95,10 @@ ul {
 }
 ul li span {
 	color: #444444;
+}
+
+.color-grey {
+	color:#444444;
 }
 /* ********** Divider **********  */
 .dot {
@@ -243,9 +248,10 @@ input {
 .caps {
 	text-transform: uppercase;
 }
-.mar-none {
+.mar-none, input.mar-none {
     margin: 0;
 }
+
 
 .mar-bot-35 {
     margin-bottom: 35px;
@@ -339,6 +345,8 @@ input {
 
 ul.no-bullets {
 	list-style:none;
+	margin-left:0px;
+	margin-right:0px;
 }
 
 textarea.large {
@@ -363,6 +371,10 @@ width: auto;
 	color: #737373;
 	padding:10px;
 	font-style:italic;
+}
+
+.btn > a:hover {
+	text-decoration:none;
 }
 
 
